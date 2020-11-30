@@ -1,4 +1,4 @@
-# This bot was made with a Youtube Tutorial
+# This bot was made with a Youtube Tutorial and Real Python Articles
 # Python: Making a Discord bot
 # By: Lucas
 
