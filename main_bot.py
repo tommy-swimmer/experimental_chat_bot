@@ -21,6 +21,10 @@ async def ping(ctx):    # Establishing the context for the prefix
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms ') # Sending Pong! and Latency in ms
 
 @client.command()
+async def gg(ctx):    # Establishing the context for the prefix as 'gg'
+    await ctx.send(f'gg') # Reply with gee gee
+
+@client.command()
 async def quote(ctx):
     responses = open('quotes.txt').read().splitlines()
     random.seed(a=None)
