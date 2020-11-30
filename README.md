@@ -3,11 +3,11 @@
 This bot is made from the RealPython website article, titled "A Simple Guide to Making a Discord Bot Using Python" at the moment.
 I'm too lazy to link it at the moment.
 
-It can:
-  - Run a .ping command which will respond with Pong! [latency].
-  - Pick from a quote.txt file at random when prompted with the command .quote
-
-
-# To-Do
-- Make it useful
-- Make it smarter
+|Features|Status|
+|-|-|
+|Ping command receive Pong! and latency.|Working|
+|Quote generator|Working|
+|gg command receive gg back|Working|
+|Bot is ready receive on terminal|Working|
+|Useful functionality|To-do|
+|Smart Actions|To-do|
