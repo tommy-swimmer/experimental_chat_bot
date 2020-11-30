@@ -1,6 +1,6 @@
-# First attempt at a Chatbot
-# Not sure what this is going to be used for.
-# November 29, 2020
+# This bot was made with a Youtube Tutorial
+# Python: Making a Discord bot
+# By: Lucas
 
 import discord
 from discord.ext import commands
@@ -15,6 +15,10 @@ client = commands.Bot(command_prefix = '.') # Establishing the prefix
 # We'll mention the prefix later
 
 # Answers with ms latency
+
+@client.event
+async def on_ready():
+    print('Bot is ready')
 
 @client.command()
 async def ping(ctx):    # Establishing the context for the prefix
@@ -32,5 +36,3 @@ async def quote(ctx):
     await ctx.send(response)
 
 client.run(TOKEN)
-
-# As of 11/29/20: This code works while running on a terminal of some sort.
