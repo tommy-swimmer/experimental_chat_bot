@@ -1,7 +1,6 @@
 # experimental_chat_bot
 
-This bot is made from the RealPython website article, titled "A Simple Guide to Making a Discord Bot Using Python" at the moment.
-I'm too lazy to link it at the moment.
+This bot is made from the RealPython website article, titled "A Simple Guide to Making a Discord Bot Using Python".
 
 |Features|Status|
 |-|-|
